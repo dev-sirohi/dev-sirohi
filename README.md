@@ -1,6 +1,6 @@
 ## 👋 About Me
 
-Software engineer with experience building enterprise ERP/WMS systems using **.NET (C#)**, **SQL Server**, and **JavaScript**. Currently deepening expertise in **systems programming (C)**, **networking**, and **performance-oriented backend systems**.
+Software engineer with experience building enterprise ERP/WMS systems using **.NET (C#)**, **SQL Server**, and **JavaScript**. Currently deepening expertise in **systems programming**, **networking**, and **performance-oriented backend systems**.
 
 ---
 
