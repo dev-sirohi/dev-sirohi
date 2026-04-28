@@ -2,12 +2,6 @@
 
 Software engineer with experience building enterprise ERP/WMS systems using **.NET (C#)**, **SQL Server**, and **React/JavaScript**. Currently focused on deepening knowledge in **systems programming**, **networking**, and **performance-oriented backend systems**, with an emphasis on low-level understanding and practical implementation.
 
-## 🧠 Casual Summary
-
-I tend to chase too many interesting things at once. There’s always something new to learn in programming, systems, and computers, and it can get overwhelming.
-
-To stay grounded, I maintain a set of focused projects that give structure to that curiosity and help me move forward with intent instead of chaos.
-
 ---
 
 ## 🔧 Current Projects
