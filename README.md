@@ -1,20 +1,15 @@
 ## 👋 Professional Summary
 
-Software engineer with experience building enterprise ERP/WMS systems using **.NET (C#)**, **SQL Server**, and **React/JavaScript**. Currently focused on deepening knowledge in **systems programming**, **networking**, and **performance-oriented backend systems**, with an emphasis on low-level understanding and practical implementation.
+Software engineer with experience building enterprise ERP/WMS systems using **.NET (C#)**, **C/C++**, **SQL Server**, and **React/JavaScript**. Currently focused on deepening knowledge in **systems programming**, **networking**, and **performance-oriented backend systems**, with an emphasis on low-level understanding and practical implementation.
 
 ---
 
 ## 🔧 Current Projects
 
-# Huffman Encoding
-***C • Data Structures • Algorithms***
-
-With this project, I’m aiming to build a deeper understanding of compression algorithms by implementing Huffman Encoding from scratch in C. It’s also my entry point into low-level programming, memory management, and thinking closer to how the machine actually works.
-
 # Ngrok Implementation
-***Haskell • Networking • Functional Programming***
+***C/C++ • Networking • Functional Programming***
 
-I’m building a simplified version of Ngrok to better understand networking concepts like tunneling and socket communication. At the same time, this project is helping me get comfortable with Haskell and functional programming.
+I’m building a simplified version of Ngrok to better understand networking concepts like tunneling and socket communication. At the same time, this project is helping me get comfortable with low-level programming.
 
 ---
 
@@ -38,6 +33,11 @@ This is an extension of my current in-memory database project. I plan to add fea
 ---
 
 ## ✅ Completed Projects
+
+# Huffman Encoding
+***C++ • Data Structures • Algorithms***
+
+With this project, I’m aiming to build a deeper understanding of compression algorithms by implementing Huffman Encoding from scratch in C++. It’s also my entry point into low-level programming, memory management, and thinking closer to how the machine actually works.
 
 # In-Memory Database
 ***C# • TCP • Async • Networking***
