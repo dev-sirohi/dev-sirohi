@@ -16,7 +16,7 @@ What started out as a simple, *Flappy Bird* clone turned into something bigger. 
 I’m building a simplified version of Ngrok to better understand networking concepts like tunneling and socket communication. At the same time, this project is helping me get comfortable with low-level programming.
 
 # Intro to Algorithms (MIT OCW)
-****C/C++ • Algorithms • Data Structures***
+***C/C++ • Algorithms • Data Structures***
 
 Starting my journey on the holy land of algorithms and data structures but not the Leetcode/GFG shortcut. Learning from the ground up about computers, programming, algorithms, & data structures. Using codeforces for implementation.
 
