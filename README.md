@@ -15,6 +15,11 @@ What started out as a simple, *Flappy Bird* clone turned into something bigger. 
 
 I’m building a simplified version of Ngrok to better understand networking concepts like tunneling and socket communication. At the same time, this project is helping me get comfortable with low-level programming.
 
+# Intro to Algorithms (MIT OCW)
+***C/C++ • Algorithms • Data Structures
+
+Starting my journey on the holy land of algorithms and data structures but not the Leetcode/GFG shortcut. Learning from the ground up about computers, programming, algorithms, & data structures. Using codeforces for implementation.
+
 ---
 
 ## 🚧 Planned Projects
@@ -23,12 +28,6 @@ I’m building a simplified version of Ngrok to better understand networking con
 ***C • Systems Programming • Emulation***
 
 With this project, I want to get hands-on experience with CPU emulation, memory mapping, and timing accuracy. Since I’m new to low-level systems and hardware concepts, I’ll be following a structured guide to build a solid foundation.
-
-# Custom 2D Game Engine + Game
-***C# • MonoGame • Rendering***
-
-I want to build a 2D game engine from scratch and use it to create a complete game. The focus will be on engine architecture, rendering fundamentals, and gameplay systems, with the end goal being a story-driven game with meaningful mechanics.
-
 # Credis 2.0
 ***C# • TCP • Distributed Systems***
 
