@@ -5,6 +5,10 @@ Software engineer with experience building enterprise ERP/WMS systems using **.N
 ---
 
 ## 🔧 Current Projects
+# Flappy Wabbit
+***C/C++ • Raylib • Game Programming***
+
+What started out as a simple, *Flappy Bird* clone turned into something bigger. I’m now making a *Super Mario*-like game using C/Raylib. For now, I’ll just build the **Title Screen** and **Level One** to get the feel of the library and using C as a programming language. 
 
 # Ngrok Implementation
 ***C/C++ • Networking • Functional Programming***
