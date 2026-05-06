@@ -43,7 +43,7 @@ This is an extension of my current in-memory database project. I plan to add fea
 
 With this project, I’m aiming to build a deeper understanding of compression algorithms by implementing Huffman Encoding from scratch in C++. It’s also my entry point into low-level programming, memory management, and thinking closer to how the machine actually works.
 
-# In-Memory Database
+# Credis 1.0 (In-Memory Database)
 ***C# • TCP • Async • Networking***
 
 A lightweight in-memory database implementing a byte-length-prefixed protocol (RESP-inspired). Built using asynchronous socket handling with a concurrent design to efficiently manage multiple clients.
