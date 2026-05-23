@@ -10,15 +10,10 @@ Software engineer with experience building enterprise ERP/WMS systems using **.N
 
 What started out as a simple, *Flappy Bird* clone turned into something bigger. I’m now making a *Super Mario*-like game using C/Raylib. For now, I’ll just build the **Title Screen** and **Level One** to get the feel of the library and using C as a programming language. 
 
-# Ngrok Implementation
-***C/C++ • Networking • Functional Programming***
-
-I’m building a simplified version of Ngrok to better understand networking concepts like tunneling and socket communication. At the same time, this project is helping me get comfortable with low-level programming.
-
-# Intro to Algorithms (MIT OCW)
+# USACO
 ***C/C++ • Algorithms • Data Structures***
 
-Starting my journey on the holy land of algorithms and data structures but not the Leetcode/GFG shortcut. Learning from the ground up about computers, programming, algorithms, & data structures. Using codeforces for implementation.
+Starting my journey on the holy land of algorithms and data structures but not the Leetcode/GFG shortcut. Learning from the ground up about computers, programming, algorithms, & data structures. Using USACO/AtCoder for implementation.
 
 ---
 
@@ -28,6 +23,11 @@ Starting my journey on the holy land of algorithms and data structures but not t
 ***C • Systems Programming • Emulation***
 
 With this project, I want to get hands-on experience with CPU emulation, memory mapping, and timing accuracy. Since I’m new to low-level systems and hardware concepts, I’ll be following a structured guide to build a solid foundation.
+
+# Ngrok Implementation
+***C/C++ • Networking • Functional Programming***
+
+I’m building a simplified version of Ngrok to better understand networking concepts like tunneling and socket communication. At the same time, this project is helping me get comfortable with low-level programming.
 # Credis 2.0
 ***C# • TCP • Distributed Systems***
 
@@ -66,8 +66,4 @@ Focus areas include scalability, caching strategies, and clean separation betwee
 ## 📚 Learning Resources
 
 - Beej’s Guide to C Programming - https://beej.us/guide/
-- Beej’s Guide to Network Programming - https://beej.us/guide/
-- Beej’s Guide to Computer Networks - https://beej.us/guide/
 - Coding Challenges - https://codingchallenges.fyi/challenges/intro
-- Game Boy emulator reference - http://www.codeslinger.co.uk/pages/projects/gameboy.html
-- Learn Haskell - https://learnyouahaskell.github.io/
