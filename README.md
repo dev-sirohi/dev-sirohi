@@ -3,12 +3,22 @@
 Software engineer with experience building enterprise ERP/WMS systems using **.NET (C#)**, **C/C++**, **SQL Server**, and **React/JavaScript**. Currently focused on deepening knowledge in **systems programming**, **networking**, and **performance-oriented backend systems**, with an emphasis on low-level understanding and practical implementation.
 
 ---
-
 ## 🔧 Current Projects
 # Flappy Wabbit
 ***C/C++ • Raylib • Game Programming***
 
-What started out as a simple, *Flappy Bird* clone turned into something bigger. I’m now making a *Super Mario*-like game using C/Raylib. For now, I’ll just build the **Title Screen** and **Level One** to get the feel of the library and using C as a programming language. 
+The project is being built from scratch in C/C++ using Raylib, with a strong focus on understanding how game engines work internally. 
+
+Current work includes:
+- *Custom scene management*
+- *Animation system*
+- *Collision handling*
+- *Virtual resolution rendering*
+- *Tilemap support (In-progress)*
+- *Dialogue and interaction systems (In-progress)*
+- *Camera and world-space architecture (In-progress)*
+
+Rather than relying on a full engine like Unity or Godot, the goal is to learn low-level game development fundamentals while creating a small atmospheric RPG experience centered around exploration, mood, and narrative design.
 
 # USACO
 ***C/C++ • Algorithms • Data Structures***
@@ -16,25 +26,6 @@ What started out as a simple, *Flappy Bird* clone turned into something bigger. 
 Starting my journey on the holy land of algorithms and data structures but not the Leetcode/GFG shortcut. Learning from the ground up about computers, programming, algorithms, & data structures. Using USACO/AtCoder for implementation.
 
 ---
-
-## 🚧 Planned Projects
-
-# NES / Game Boy Emulator
-***C • Systems Programming • Emulation***
-
-With this project, I want to get hands-on experience with CPU emulation, memory mapping, and timing accuracy. Since I’m new to low-level systems and hardware concepts, I’ll be following a structured guide to build a solid foundation.
-
-# Ngrok Implementation
-***C/C++ • Networking • Functional Programming***
-
-I’m building a simplified version of Ngrok to better understand networking concepts like tunneling and socket communication. At the same time, this project is helping me get comfortable with low-level programming.
-# Credis 2.0
-***C# • TCP • Distributed Systems***
-
-This is an extension of my current in-memory database project. I plan to add features like time-based expiration, Pub/Sub messaging, and persistence to better understand how real-world systems evolve and handle complexity.
-
----
-
 ## ✅ Completed Projects
 
 # Huffman Encoding
@@ -62,8 +53,25 @@ A full-stack microblogging application with:
 Focus areas include scalability, caching strategies, and clean separation between frontend and backend system.
 
 ---
+## 🚧 Planned Projects
 
+# NES / Game Boy Emulator
+***C • Systems Programming • Emulation***
+
+With this project, I want to get hands-on experience with CPU emulation, memory mapping, and timing accuracy. Since I’m new to low-level systems and hardware concepts, I’ll be following a structured guide to build a solid foundation.
+
+# Ngrok Implementation
+***C/C++ • Networking • Functional Programming***
+
+I’m building a simplified version of Ngrok to better understand networking concepts like tunneling and socket communication. At the same time, this project is helping me get comfortable with low-level programming.
+# Credis 2.0
+***C# • TCP • Distributed Systems***
+
+This is an extension of my current in-memory database project. I plan to add features like time-based expiration, Pub/Sub messaging, and persistence to better understand how real-world systems evolve and handle complexity.
+
+---
 ## 📚 Learning Resources
 
 - Beej’s Guide to C Programming - https://beej.us/guide/
 - Coding Challenges - https://codingchallenges.fyi/challenges/intro
+- USACO Guide - https://usaco.guide/dashboard
