@@ -47,7 +47,7 @@ Backend-heavy microblogging platform exploring caching, eventual consistency, an
 
 ---
 
-# Credis — In-Memory Database
+# [Credis — In-Memory Database](https://github.com/dev-sirohi/Recreational/tree/main/credis-a-c-sharp-in-memory-db)
 ***C# • TCP • Async • Networking***
 
 Lightweight in-memory database implementing a byte-length-prefixed protocol (RESP-inspired). Built to understand networking, protocol design, and concurrent async request handling across multiple clients.
