@@ -6,7 +6,7 @@
 
 ---
 
-# StockSense — Warehouse Intelligence Platform
+# [StockSense — Warehouse Intelligence Platform](https://github.com/dev-sirohi/stocksense)
 ***Python • FastAPI • PostgreSQL • pgvector • Redis • OpenAI • Docker***
 
 AI-powered warehouse intelligence platform built for a Delhi-based FMCG distributor managing 500+ SKUs.
@@ -19,7 +19,7 @@ AI-powered warehouse intelligence platform built for a Delhi-based FMCG distribu
 
 ---
 
-# PayBridge — Payment Gateway Integration
+# [PayBridge — Payment Gateway Integration](https://github.com/dev-sirohi/Paybridge)
 ***Python • FastAPI • PostgreSQL • Razorpay • Docker***
 
 Payment gateway integration service handling the full order lifecycle from creation to confirmation.
@@ -32,7 +32,7 @@ Payment gateway integration service handling the full order lifecycle from creat
 
 ---
 
-# Microblog — Full Stack Social Platform
+# [Microblog — Full Stack Social Platform](https://github.com/dev-sirohi/microblog)
 ***.NET • ASP.NET Core • SQL Server • Redis • React • TypeScript • Docker***
 
 Backend-heavy microblogging platform exploring caching, eventual consistency, and async messaging.
