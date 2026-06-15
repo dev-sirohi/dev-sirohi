@@ -1,69 +1,53 @@
-## 👋 Professional Summary
-Software engineer with 2.5 years of production experience building enterprise ERP and Warehouse Management Systems. Proficient in **.NET (C#)**, **Python**, **SQL Server**, **PostgreSQL**, and **React**. Currently building AI-powered backend systems with **FastAPI**, **LLMs**, and **vector search**, while deepening expertise in **systems programming** and low-level networking through C/C++. Strong focus on performance, system design, and understanding how things work at the foundation.
+# Dev Sirohi — Software Engineer
+
+2.5 years building enterprise ERP and Warehouse Management Systems. Focused on backend systems, API design, and understanding how things work at the foundation.
+
+**.NET (C#) • Python • FastAPI • PostgreSQL • SQL Server • React**
 
 ---
+
 # StockSense — Warehouse Intelligence Platform
-***Python • FastAPI • PostgreSQL • pgvector • Redis • OpenAI • React • Docker***
+***Python • FastAPI • PostgreSQL • pgvector • Redis • OpenAI • Docker***
 
-An AI-powered warehouse intelligence platform built for a Delhi-based FMCG distributor managing 500+ SKUs across 8 product categories.
+AI-powered warehouse intelligence platform built for a Delhi-based FMCG distributor managing 500+ SKUs.
 
-- *Natural language inventory queries via RAG + OpenAI*
-- *Semantic SKU search using text embeddings and pgvector cosine similarity*
-- *Real-time stock health alerts — expiring, expired, low stock*
-- *API performance monitoring with P95 metrics and cache hit rate tracking*
-- *Redis caching layer with measurable before/after response time improvements*
-- *Async FastAPI backend with PostgreSQL and full Docker Compose setup*
+- Natural language inventory queries via RAG + OpenAI
+- Semantic SKU search using text embeddings and pgvector cosine similarity
+- Real-time stock health alerts — expiring, expired, low stock
+- API performance monitoring with P95 metrics and cache hit rate tracking
+- Redis caching layer with measurable response time improvements
+
 ---
 
-## ✅ Completed Projects
+# PayBridge — Payment Gateway Integration
+***Python • FastAPI • PostgreSQL • Razorpay • Docker***
 
-# Microblog Platform
-***.NET • C# • SQL Server • React • TypeScript • Redis***
+Payment gateway integration service handling the full order lifecycle from creation to confirmation.
 
-A full-stack microblogging application with:
-- *.NET backend*
-- *Redis caching layer*
-- *React frontend with Material UI*
+- Razorpay order creation with async SDK integration
+- Webhook processing with HMAC-SHA256 signature verification
+- Wallet top-up and withdrawal with balance enforcement
+- Transactional integrity — wallet credits only on confirmed webhook events
+- Order history with filtering by status and date range
 
-Focus areas include scalability, caching strategies, and clean separation between frontend and backend systems.
+---
 
-# Credis 1.0 (In-Memory Database)
+# Microblog — Full Stack Social Platform
+***.NET • ASP.NET Core • SQL Server • Redis • React • TypeScript • Docker***
+
+Backend-heavy microblogging platform exploring caching, eventual consistency, and async messaging.
+
+- JWT auth via HTTP-only cookies with refresh token flow
+- Redis cache-aside pattern via generic `ICacheService<T>` wrapper
+- Background sync service drains Redis queues to SQL Server asynchronously
+- Configurable event streaming — Kafka or Azure Service Bus via config toggle
+- AI post recommendations via OpenAI embeddings + cosine similarity, cached in Redis
+- Prometheus metrics, health checks, and Redis-backed rate limiting
+- React + TypeScript frontend with optimistic UI updates
+
+---
+
+# Credis — In-Memory Database
 ***C# • TCP • Async • Networking***
 
-A lightweight in-memory database implementing a byte-length-prefixed protocol (RESP-inspired). Built using asynchronous socket handling with a concurrent design to efficiently manage multiple clients.
-
-# Huffman Encoding
-***C++ • Data Structures • Algorithms***
-
-With this project, I'm aiming to build a deeper understanding of compression algorithms by implementing Huffman Encoding from scratch in C++. It's also my entry point into low-level programming, memory management, and thinking closer to how the machine actually works.
-
-# Aligned Man-Pages Library
-***C# • CLI • Utilities***
-
-A small utility library for rendering clean, aligned console output. Designed to standardize and improve readability for custom CLI tools and documentation-style outputs.
-
----
-
-## 🚧 Planned Projects
-
-# NES / Game Boy Emulator
-***C • Systems Programming • Emulation***
-
-With this project, I want to get hands-on experience with CPU emulation, memory mapping, and timing accuracy. Since I'm new to low-level systems and hardware concepts, I'll be following a structured guide to build a solid foundation.
-
-# Ngrok Implementation
-***C/C++ • Networking • Functional Programming***
-
-I'm building a simplified version of Ngrok to better understand networking concepts like tunneling and socket communication. At the same time, this project is helping me get comfortable with low-level programming.
-
-# Credis 2.0
-***C# • TCP • Distributed Systems***
-
-This is an extension of my current in-memory database project. I plan to add features like time-based expiration, Pub/Sub messaging, and persistence to better understand how real-world systems evolve and handle complexity.
-
----
-
-## 📚 Learning Resources
-- Beej's Guide to C Programming - https://beej.us/guide/
-- Coding Challenges - https://codingchallenges.fyi/challenges/intro
-- USACO Guide - https://usaco.guide/dashboard
+Lightweight in-memory database implementing a byte-length-prefixed protocol (RESP-inspired). Built to understand networking, protocol design, and concurrent async request handling across multiple clients.
