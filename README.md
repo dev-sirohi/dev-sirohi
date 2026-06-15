@@ -6,7 +6,7 @@
 
 ---
 
-# [StockSense — Warehouse Intelligence Platform](https://github.com/dev-sirohi/stocksense)
+# [StockSense — Warehouse Intelligence Platform](https://github.com/dev-sirohi/stocksense) · _[Live Demo](https://stocksense-production-80d2.up.railway.app/)_
 ***Python • FastAPI • PostgreSQL • pgvector • Redis • OpenAI • Docker***
 
 AI-powered warehouse intelligence platform built for a Delhi-based FMCG distributor managing 500+ SKUs.
