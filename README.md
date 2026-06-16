@@ -47,6 +47,16 @@ Backend-heavy microblogging platform exploring caching, eventual consistency, an
 
 ---
 
+# [FastAPI Project Generator](https://github.com/dev-sirohi/fastapi-project-generator)
+***Python • CLI • FastAPI • Docker***
+CLI script to scaffold a production-ready FastAPI project structure with optional Dockerfile, virtual environment setup, and automatic rollback on failure.
+- Interactive prompts — project name, Dockerfile, venv, extra requirements
+- Generates `src/`-based layout with `models`, `services`, `dtos`, `routers` as packages
+- Automatic rollback on any failure
+- Cross-platform: Windows, macOS, Linux
+
+---
+
 # [Credis — In-Memory Database](https://github.com/dev-sirohi/Recreational/tree/main/credis-a-c-sharp-in-memory-db)
 ***C# • TCP • Async • Networking***
 
