@@ -47,6 +47,17 @@ Backend-heavy microblogging platform exploring caching, eventual consistency, an
 
 ---
 
+# [Pyblog — Blog Platform](https://github.com/dev-sirohi/pyblog)
+***Python • FastAPI • PostgreSQL • Firebase • Docker***
+Full-stack blog platform with Markdown-based content authoring and media management.
+- JWT auth via HTTP-only cookies
+- Markdown content with inline media — images stored in Firebase Storage, referenced by UUID in content
+- Users, posts, auth, likes, and follows persisted in PostgreSQL
+- Rate limiting via SlowAPI
+- Static frontend served directly from FastAPI
+
+---
+
 # [FastAPI Project Generator](https://github.com/dev-sirohi/fastapi-project-generator)
 ***Python • CLI • FastAPI • Docker***
 CLI script to scaffold a production-ready FastAPI project structure with optional Dockerfile, virtual environment setup, and automatic rollback on failure.
