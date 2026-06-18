@@ -47,6 +47,21 @@ Backend-heavy microblogging platform exploring caching, eventual consistency, an
 
 ---
 
+# [Credis — In-Memory Database](https://github.com/dev-sirohi/Recreational/tree/main/credis-a-c-sharp-in-memory-db)
+***C# • TCP • Async • Networking***
+
+A tiny Redis-style in-memory database written from scratch in C# (.NET 10). It speaks a small binary line protocol over raw TCP, stores everything in memory, supports per-key time-to-live (TTL), and serves many connections concurrently.
+
+This is a learning project: the goal was to hand-roll the networking, the buffer management, and the request parser without leaning on a framework, and to keep the code small enough to read in one sitting.
+- Raw TCP server built on TcpListener, one task per connection.
+- Hand-written parser that reads a length-prefixed binary frame out of a fixed-size buffer — no StreamReader, no allocations per line beyond the value itself.
+- Eight commands: set, get, delete, exists, increment, decrement, expire, ttl.
+- Per-key TTL with lazy expiration (a key is reclaimed the moment it is read after expiring).
+- Thread-safe store backed by ConcurrentDictionary.
+- A single-file benchmark (Test.cs) that proves correctness and measures throughput.
+
+---
+
 # [Pyblog — Blog Platform](https://github.com/dev-sirohi/pyblog)
 ***Python • FastAPI • PostgreSQL • Firebase • Docker***
 
@@ -67,10 +82,3 @@ CLI script to scaffold a production-ready FastAPI project structure with optiona
 - Generates `src/`-based layout with `models`, `services`, `dtos`, `routers` as packages
 - Automatic rollback on any failure
 - Cross-platform: Windows, macOS, Linux
-
----
-
-# [Credis — In-Memory Database](https://github.com/dev-sirohi/Recreational/tree/main/credis-a-c-sharp-in-memory-db)
-***C# • TCP • Async • Networking***
-
-Lightweight in-memory database implementing a byte-length-prefixed protocol (RESP-inspired). Built to understand networking, protocol design, and concurrent async request handling across multiple clients.
