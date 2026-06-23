@@ -62,18 +62,6 @@ This is a learning project: the goal was to hand-roll the networking, the buffer
 
 ---
 
-# [Pyblog — Blog Platform](https://github.com/dev-sirohi/pyblog)
-***Python • FastAPI • PostgreSQL • Firebase • Docker***
-
-Full-stack blog platform with Markdown-based content authoring and media management.
-- JWT auth via HTTP-only cookies
-- Markdown content with inline media — images stored in Firebase Storage, referenced by UUID in content
-- Users, posts, auth, likes, and follows persisted in PostgreSQL
-- Rate limiting via SlowAPI
-- Static frontend served directly from FastAPI
-
----
-
 # [FastAPI Project Generator](https://github.com/dev-sirohi/fastapi-project-generator)
 ***Python • CLI • FastAPI • Docker***
 
