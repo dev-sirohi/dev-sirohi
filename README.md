@@ -6,20 +6,7 @@ Software engineer with 2.5 years of production experience building backend syste
 
 ---
 
-# [StockSense — Warehouse Intelligence Platform](https://github.com/dev-sirohi/stocksense) · _[Live Demo](https://stocksense-production-80d2.up.railway.app/)_
-***Python • FastAPI • PostgreSQL • pgvector • Redis • OpenAI • Docker***
-
-AI-powered warehouse intelligence platform for inventory search, monitoring, and analytics, built around the workflows of an FMCG distributor managing 500+ SKUs.
-
-- Natural language inventory queries via RAG + OpenAI
-- Semantic SKU search using text embeddings and pgvector cosine similarity
-- Real-time stock health alerts — expiring, expired, low stock
-- API performance monitoring with P95 metrics and cache hit rate tracking
-- Redis caching layer with measurable response time improvements
-
----
-
-# [Sponsored Ads Ranking & Bid Optimization Platform](https://github.com/dev-sirohi/paisa-vasool)
+# [Paisa Vasool — Sponsored Ads Ranking & Bid Optimization Platform](https://github.com/dev-sirohi/paisa-vasool)
 
 ***Python • LightGBM • PyTorch • FastAPI • PostgreSQL • Docker • Machine Learning***
 
@@ -33,6 +20,19 @@ End-to-end sponsored advertising ranking platform built on the Criteo CTR Predic
 
 ---
 
+# [StockSense — Warehouse Intelligence Platform](https://github.com/dev-sirohi/stocksense) · _[Live Demo](https://stocksense-production-80d2.up.railway.app/)_
+***Python • FastAPI • PostgreSQL • pgvector • Redis • OpenAI • Docker***
+
+AI-powered warehouse intelligence platform for inventory search, monitoring, and analytics, built around the workflows of an FMCG distributor managing 500+ SKUs.
+
+- Retrieval-augmented natural language inventory search using OpenAI and pgvector.
+- Semantic SKU search using text embeddings and pgvector cosine similarity
+- Real-time stock health alerts — expiring, expired, low stock
+- API performance monitoring with P95 metrics and cache hit rate tracking
+- Redis caching layer reducing API latency for repeated inventory queries.
+
+---
+
 # [Microblog — Full Stack Social Platform](https://github.com/dev-sirohi/microblog)
 ***.NET • ASP.NET Core • SQL Server • Redis • React • TypeScript • Docker***
 
@@ -42,7 +42,7 @@ Backend-heavy microblogging platform exploring caching, eventual consistency, an
 - Redis cache-aside pattern via generic `ICacheService<T>` wrapper
 - Background sync service drains Redis queues to SQL Server asynchronously
 - Configurable event streaming — Kafka or Azure Service Bus via config toggle
-- AI post recommendations via OpenAI embeddings + cosine similarity, cached in Redis
+- Semantic post recommendations using OpenAI embeddings, vector similarity, and Redis caching.
 - Prometheus metrics, health checks, and Redis-backed rate limiting
 - React + TypeScript frontend with optimistic UI updates
 
