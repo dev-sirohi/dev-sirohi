@@ -1,15 +1,15 @@
-# Dev Sirohi — Software Engineer
+# Dev Sirohi — Machine Learning Engineer | Software Engineer
 
-2.5 years building enterprise ERP and Warehouse Management Systems. Focused on backend systems, API design, and understanding how things work at the foundation.
+Software engineer with 2.5 years of production experience building backend systems and machine learning applications. Interested in ranking, retrieval, recommender systems, and production ML, with a focus on designing systems that are accurate, scalable, and easy to operate.
 
-**.NET (C#) • Python • FastAPI • PostgreSQL • SQL Server • React**
+**Python • C#/.NET • FastAPI • PostgreSQL • SQL Server • Machine Learning**
 
 ---
 
 # [StockSense — Warehouse Intelligence Platform](https://github.com/dev-sirohi/stocksense) · _[Live Demo](https://stocksense-production-80d2.up.railway.app/)_
 ***Python • FastAPI • PostgreSQL • pgvector • Redis • OpenAI • Docker***
 
-AI-powered warehouse intelligence platform built for a Delhi-based FMCG distributor managing 500+ SKUs.
+AI-powered warehouse intelligence platform for inventory search, monitoring, and analytics, built around the workflows of an FMCG distributor managing 500+ SKUs.
 
 - Natural language inventory queries via RAG + OpenAI
 - Semantic SKU search using text embeddings and pgvector cosine similarity
@@ -19,16 +19,17 @@ AI-powered warehouse intelligence platform built for a Delhi-based FMCG distribu
 
 ---
 
-# [PayBridge — Payment Gateway Integration](https://github.com/dev-sirohi/Paybridge)
-***Python • FastAPI • PostgreSQL • Razorpay • Docker***
+# [Sponsored Ads Ranking & Bid Optimization Platform](https://github.com/dev-sirohi/paisa-vasool)
 
-Payment gateway integration service handling the full order lifecycle from creation to confirmation.
+***Python • LightGBM • PyTorch • FastAPI • PostgreSQL • Docker • Machine Learning***
 
-- Razorpay order creation with async SDK integration
-- Webhook processing with HMAC-SHA256 signature verification
-- Wallet top-up and withdrawal with balance enforcement
-- Transactional integrity — wallet credits only on confirmed webhook events
-- Order history with filtering by status and date range
+End-to-end sponsored advertising ranking platform built on the Criteo CTR Prediction dataset, covering feature engineering, click-through rate prediction, probability calibration, bid optimization, auction simulation, and low-latency model serving.
+
+- Engineered features across an **863K-cardinality** categorical space using feature hashing and rare-value bucketing.
+- Benchmarked linear, tree-based, and deep CTR models on strict chronological splits; **LightGBM** achieved the best performance (**0.455 Log Loss**, **0.792 ROC-AUC**).
+- Improved probability calibration using **isotonic regression**, reducing expected calibration error by approximately **13%**.
+- Implemented expected-value bidding within a generalized second-price auction simulator, improving simulated advertiser ROI by **~27%** and platform revenue by **~12%**.
+- Served predictions through a Dockerized **FastAPI** service (**47 ms P95**) with integrated RAG documentation and semantic search.
 
 ---
 
