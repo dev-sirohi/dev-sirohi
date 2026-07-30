@@ -6,7 +6,7 @@ Software engineer with 2.5 years of production experience building backend syste
 
 ---
 
-# [Paisa Vasool — Sponsored Ads Ranking & Bid Optimization Platform](https://github.com/dev-sirohi/paisa-vasool)
+# [Paisa Vasool — Sponsored Ads Ranking & Bid Optimization Platform](https://github.com/dev-sirohi/paisa_vasool)
 
 ***Python • LightGBM • PyTorch • FastAPI • PostgreSQL • Docker • Machine Learning***
 
