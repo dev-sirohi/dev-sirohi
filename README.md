@@ -20,6 +20,23 @@ End-to-end sponsored advertising ranking platform built on the Criteo CTR Predic
 
 ---
 
+# [Microblog — Full Stack Social Platform](https://github.com/dev-sirohi/microblog) · _[Live Demo](https://microblog-devsirohi-ddfmf3crgvh2akau.centralindia-01.azurewebsites.net/swagger/index.html)_
+***.NET • ASP.NET Core • SQL Server • Redis • React • TypeScript • Docker • Azure***
+
+Backend-heavy microblogging platform exploring the trade-off between Redis (performance) and SQL Server (durability).
+
+- JWT authentication with HTTP-only cookie sessions and EF Core-persisted refresh tokens
+- Custom Redis sliding-window rate limiter with per-endpoint policies, backed by a `[RateLimit]` attribute/filter
+- Eventual-consistency write path: likes/follows queue to Redis and drain to SQL Server in batches via a hosted `BackgroundService`
+- Pluggable messaging (Azure Service Bus) and storage (Azure Blob Storage) behind swappable interfaces
+- Deployed to Azure App Service with secrets in Key Vault, via a GitHub Actions CI/CD pipeline
+- xUnit integration tests (Testcontainers) covering auth, rate limiting, and the batched write path
+- Prometheus metrics and Grafana dashboards for request latency and cache-hit monitoring
+
+*Hosted on free-tier Azure resources, so the app is generally kept stopped to conserve them — [email me](mailto:devsirohi000@gmail.com) and I'll spin it back up in a couple of minutes if you'd like to see the live demo.*
+
+---
+
 # [StockSense — Warehouse Intelligence Platform](https://github.com/dev-sirohi/stocksense) · _[Live Demo](https://stocksense-production-80d2.up.railway.app/)_
 ***Python • FastAPI • PostgreSQL • pgvector • Redis • OpenAI • Docker***
 
@@ -30,21 +47,6 @@ AI-powered warehouse intelligence platform for inventory search, monitoring, and
 - Real-time stock health alerts — expiring, expired, low stock
 - API performance monitoring with P95 metrics and cache hit rate tracking
 - Redis caching layer reducing API latency for repeated inventory queries.
-
----
-
-# [Microblog — Full Stack Social Platform](https://github.com/dev-sirohi/microblog)
-***.NET • ASP.NET Core • SQL Server • Redis • React • TypeScript • Docker***
-
-Backend-heavy microblogging platform exploring caching, eventual consistency, and async messaging.
-
-- JWT auth via HTTP-only cookies with refresh token flow
-- Redis cache-aside pattern via generic `ICacheService<T>` wrapper
-- Background sync service drains Redis queues to SQL Server asynchronously
-- Configurable event streaming — Kafka or Azure Service Bus via config toggle
-- Semantic post recommendations using OpenAI embeddings, vector similarity, and Redis caching.
-- Prometheus metrics, health checks, and Redis-backed rate limiting
-- React + TypeScript frontend with optimistic UI updates
 
 ---
 
