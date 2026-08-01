@@ -6,20 +6,6 @@ Software engineer with 2.5 years of production experience building backend syste
 
 ---
 
-# [Paisa Vasool — Sponsored Ads Ranking & Bid Optimization Platform](https://github.com/dev-sirohi/paisa_vasool)
-
-***Python • LightGBM • PyTorch • FastAPI • PostgreSQL • Docker • Machine Learning***
-
-End-to-end sponsored advertising ranking platform built on the Criteo CTR Prediction dataset, covering feature engineering, click-through rate prediction, probability calibration, bid optimization, auction simulation, and low-latency model serving.
-
-- Engineered features across an **863K-cardinality** categorical space using feature hashing and rare-value bucketing.
-- Benchmarked linear, tree-based, and deep CTR models on strict chronological splits; **LightGBM** achieved the best performance (**0.455 Log Loss**, **0.792 ROC-AUC**).
-- Improved probability calibration using **isotonic regression**, reducing expected calibration error by approximately **13%**.
-- Implemented expected-value bidding within a generalized second-price auction simulator, improving simulated advertiser ROI by **~27%** and platform revenue by **~12%**.
-- Served predictions through a Dockerized **FastAPI** service (**47 ms P95**) with integrated RAG documentation and semantic search.
-
----
-
 # [Microblog — Full Stack Social Platform](https://github.com/dev-sirohi/microblog) · _[Live Demo](https://microblog-devsirohi-ddfmf3crgvh2akau.centralindia-01.azurewebsites.net/swagger/index.html)_
 ***.NET • ASP.NET Core • SQL Server • Redis • React • TypeScript • Docker • Azure***
 
