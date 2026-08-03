@@ -23,6 +23,36 @@ Backend-heavy microblogging platform exploring the trade-off between Redis (perf
 
 ---
 
+# [HocusFocus — Focus Timer & Productivity Insights](https://github.com/dev-sirohi/hocusfocus) · _In Progress_
+***.NET • React • TypeScript • SQL Server • Redis • SignalR • Azure***
+
+A **Pomodoro-style focus timer** where the **backend is the sole authority on time** — the browser only renders a countdown and never decides when a session ends.
+
+**Done**
+- Solution scaffolded into four **Clean Architecture** projects — `Api`, `Domain`, `Infra`, `Tests` — wired so `Domain` has *zero* references and every dependency flows in one direction only
+- `Client` scaffolded with **Vite**, **React**, **TypeScript**, and **Bun**
+- `TreatWarningsAsErrors` enabled repo-wide via `Directory.Build.props`
+- Fixed a real **NuGet security advisory** in `Microsoft.OpenApi` by pinning the *patched* version, rather than suppressing the warning
+- **CI pipeline** live on **GitHub Actions** — builds and tests the backend, builds the frontend, on every push
+
+**Under Progress**
+- Local **Redis** + **SQL Server** via `docker-compose`, so a fresh clone needs nothing installed by hand
+- Repo housekeeping — `LICENSE`, README architecture summary
+
+**Planned**
+- Core timer engine — a `Domain` state machine (start/pause/resume/reset) driven by an *injected* clock, fully unit-tested with **xUnit**
+- **Redis**-backed live session state with *atomic* Lua transitions
+- Dual completion mechanism — a **Redis** expiry event plus an *idempotent* background sweeper
+- Timer command endpoints and a `GET /api/state` snapshot endpoint
+- **SignalR** realtime push, with the client interpolating time locally between updates
+- Cookie-based login with per-user data isolation
+- Unlimited, user-named categories — only one timer running at a time
+- Insights — deterministic stats engine, heatmap, **AI**-generated narration
+- **Playwright** end-to-end tests, **k6** load tests, **Prometheus**/**Grafana** metrics
+- Deployment to **Azure**
+
+---
+
 # [StockSense — Warehouse Intelligence Platform](https://github.com/dev-sirohi/stocksense) · _[Live Demo](https://stocksense-production-80d2.up.railway.app/)_
 ***Python • FastAPI • PostgreSQL • pgvector • Redis • OpenAI • Docker***
 
